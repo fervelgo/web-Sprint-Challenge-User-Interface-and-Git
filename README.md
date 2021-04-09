@@ -33,14 +33,27 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic elements in HTML describe explicitly what their purpose is in the structure you're building. Example, a <nav> element has an explicit purpose, while a <div> is generic. You want to use semantic elements whenever there is one that you find logical to use for that part of a website. It makes the structure you're defining clearer, therefore, better.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+A block element always start on a new line. Inline elements, as their name says, don't. They will visually appear in the same line as they are in the html structure. 
+A block element takes the full width available. It will stretch as far as it can to the left and to the right. An inline element will only take the width of it's content. Also an inline element does not have either top or bottom margins.
 
 3. What are the 4 areas of the box model?
+cpbm!
+
+Content, padding, border and margin.
+
+Padding = inside, margin = outside.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+Whichever the main axis is. The main axis is defined by flex-direction.
+With flex-direction: row, the main axis is horizontal.
+With flex-direction: column, the flex direction is vertical. 
 
 5. Explain why git is valuable to a team of developers.
+Multiple reasons! It gives you version control. Which provides an orderly way to keep track of all the versions and the work that each member of the team has worked on, in relation to the main code base.
+This gives you visibility, accountability, control and the ability to go back and use a previous version if something new didn't work. All of which are super valuable.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -66,21 +79,21 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [x ] Build the HTML and CSS to create the missing navigation and header.
+* [ x] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [ x] box1: `teal`
+* [ x] box2: `gold`
+* [ x] box3: `cadetblue`
+* [ x] box4: `coral`
+* [ x] box5: `crimson`
+* [ x] box6: `forestgreen`
+* [ x] box7: `darkorchid`
+* [ x] box8: `hotpink`
+* [ x] box9: `indigo`
+* [ x] box10: `dodgerblue`
 
 ### About Page
 
@@ -100,5 +113,5 @@ Note: Please make sure you are using flexbox to layout your website. Floats, inl
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
 * [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
-* [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
+* [ ] Ensure your CSS is organized and readable, you've separated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
 * [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
