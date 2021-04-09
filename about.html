@@ -12,9 +12,10 @@
 </head>
 
 <body>
-    <div class="container about-page">
+    <div class="container">
       <section class="navigation">
         <nav class="logo-and-buttons">
+          <!-- Same logic with the logo as in the home page. -->
             <div class="logo">
             </div>
             <a href="/index.html">Home</a>
@@ -23,6 +24,7 @@
             <a href="#Blog">Blog</a>
             <a href="#Contact"> Contact</a>
         </nav>
+        <!-- Same logic in this empty div as in the home page. -->
         <div class="backg-image-about">
         </div>
 
@@ -32,12 +34,14 @@
     </section>    
     </section>
     
+    <!-- This section holds a div for each of the parts of the 4 main parts of the about page -the Strategy, How We Work, Places We Work and Collaboration--->
     <section class="about-main-content-box">
       <div>
         <img src="img/about-plan.png" alt="strategy">
         <h2>Strategy</h2>
         <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
           <a class= "learn-more" href="">Learn More</a>
+          <!-- All of the anchors share the learn-more label to style the button. These divs are basically copy paste, except for the images and titles -->
       </div>
       <div>
         <img src="img/about-working.png" alt="how-we-work">
@@ -65,8 +69,9 @@
 
       <footer>
         <nav>
-         <a href="index.html">Home</a>
-         <a href="about.html">About</a>
+         <a href="/index.html">Home</a> 
+         <!-- Added the index html file to the Home link in the footer. -->
+         <a href="/about.html">About</a>
           <a href="#Prodcucts">Products</a>
           <a href="#Blog">Blog</a>
           <a href="#Contact">Contact</a>
